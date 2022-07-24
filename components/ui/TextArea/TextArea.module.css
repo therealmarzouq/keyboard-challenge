@@ -1,0 +1,9 @@
+.root {
+  @apply py-2 px-3 w-full appearance-none transition duration-150 ease-in-out pr-10 border border-accent-3 text-accent-6 rounded;
+  border-color: #dae0f2;
+  resize: none;
+}
+
+.root:focus {
+  @apply outline-none shadow-outline-normal;
+}
