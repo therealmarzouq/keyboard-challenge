@@ -22,7 +22,7 @@ const Duration = () => {
   return (
     <div className="flex  items-center gap-4 justify-center">
       <h2 className="font-semibold">Set Duration:</h2>
-      <ul className="flex items-center gap-4">
+      <ul className="flex items-center gap-4 flex-wrap">
         <li className="relative">
           <input
             type="radio"
